@@ -40,16 +40,11 @@ nav ul{
 
 nav ul li{
 list-style: none;
-/* width:180px;
-text-align: center;          
-background: #EF6C35;
-margin: 0 5px;
-border-radius: 10px 10px 0px 0px;
-padding: 10px 0;
-transition: padding 1s linear;  */
+
 }
 nav ul li a{
-    display: block;
+    position:;
+    display: inline-block;
     min-width:120px;
     background: #EF6C35;
     color: #fff;
@@ -61,15 +56,14 @@ nav ul li a{
     margin: 0 5px;
     border-radius: 10px 10px 0px 0px;
     padding: 8px 0;
-    transition: padding 0.2s linear;
+    transition: 0.3s linear;
 }
 
 nav ul li a:hover{
     color:#161C2E;
     font-weight:900;
-    padding-top: 15px;
-    transition: padding 0.3s linear;
     background:#FFAF00;
+    transform: scale(1.1,1.2)
 }
 
 
