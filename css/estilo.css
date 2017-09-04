@@ -35,9 +35,6 @@ nav ul{
     padding: 10px 0 0;
 }
 
-
-
-
 nav ul li{
 list-style: none;
 
@@ -137,11 +134,46 @@ footer{
 
 
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575px) { }
-
+@media (max-width: 575px) { 
+   .contenedor{
+    width:100%;
+    margin: auto;
+    }
+    
+    header{
+        border-radius: 0;
+    }
+    
+    header h1{
+        padding: 0;
+        text-align: center;
+        
+    }
+    
+    header nav{
+        padding-bottom: 15px;
+    }
+    
+    header nav ul li{
+        padding: 5px 0;
+    }
+    
+    header nav ul li a{
+      border-radius: 10px;  
+    }
+    
+}
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767px) { }
+@media (min-width: 576px) and (max-width: 767px) { 
 
+    header h1{
+        padding: 0;
+        text-align: center;
+        
+    }
+    
+    
+}
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) { }
 
