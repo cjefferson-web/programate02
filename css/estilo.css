@@ -135,7 +135,8 @@ footer{
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575px) { 
-   .contenedor{
+   
+    .contenedor{
     width:100%;
     margin: auto;
     }
@@ -162,15 +163,35 @@ footer{
       border-radius: 10px;  
     }
     
+    footer{
+    
+    border-radius: 0 ;
+}
+    
+    
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767px) { 
-
+    
+    .contenedor{
+    width:100%;
+    margin: auto;
+    }
+    
+    header{
+        border-radius: 0;
+    }
+    
     header h1{
         padding: 0;
         text-align: center;
         
     }
+    
+    footer{
+    
+    border-radius: 0 ;
+}
     
     
 }
