@@ -23,13 +23,7 @@ header{
     display: none;
 }
 
-.menu{
-        position: absolute;
-        background:#161C2E;
-        width:70%;
-        margin-left: -90%;
-        transition: all 0.8s;
-       }
+
     
 
 header label{
@@ -166,7 +160,13 @@ footer{
     
     
     /* Menu Responsive lateral*/
-    
+       .menu{
+        position: absolute;
+        background:#161C2E;
+        width:70%;
+        margin-left: -90%;
+        transition: all 0.8s;
+       }
    
     header h1{
     display:inline-block;
@@ -251,6 +251,8 @@ footer{
     width:100%;
     margin: auto;
     }
+    
+ 
     
     header{
         border-radius: 0;
