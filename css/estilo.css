@@ -141,6 +141,7 @@ footer{
     margin: auto;
     }
     
+    
     header{
         border-radius: 0;
     }
@@ -148,7 +149,6 @@ footer{
     header h1{
         padding: 0;
         text-align: center;
-        
     }
     
     header nav{
@@ -161,6 +161,14 @@ footer{
     
     header nav ul li a{
       border-radius: 10px;  
+    }
+    .slider h2{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    
+    .simbolo{
+        font-size: 30px;
     }
     
     footer{
@@ -195,12 +203,14 @@ footer{
     
     
 }
-/* Medium devices (tablets, 768px and up) */
+
+
+/* Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991px) { }
 
-/* Large devices (desktops, 992px and up) */
+Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199px) { }
 
-/* Extra large devices (large desktops, 1200px and up) */
+Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { }
-
+ */
