@@ -103,7 +103,7 @@ main{
 
 main .articulo{
     /* background: chocolate; */
-    width: 25%;
+    width: 32%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -169,6 +169,24 @@ footer{
     
     .simbolo{
         font-size: 30px;
+    }
+    
+    main{
+       flex-direction: column;
+        border-bottom: 0;
+    }
+    
+    main .articulo{
+    width: 100%;
+    border-bottom:  0.01px solid #EF6C35;    
+    }
+    
+    main .articulo img{
+    width:60px;    
+    }
+    
+    main .articulo h2{
+        font-size: 20px;
     }
     
     footer{
